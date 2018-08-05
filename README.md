@@ -2,7 +2,7 @@
 
 A Java program for displaying and finding paths through mazes built in FL2016 for CSCI455: Programming Systems Design at USC.  
 
-The maze solver builds and displays the given maze in a GUI using Java Swing.  Mazes are passed as textfiles detailing the number of rows and columns in a maze, a matrix of walls (1s) and free spaces (0s), and a start and end location.  The solver then uses a greedy algorithm minimizing manhatten distance to the end location to compute a path through the maze if one exists and draws the path in the GUI.
+The program builds and displays the given maze in a GUI using Java Swing.  Mazes are passed as text files detailing the number of rows and columns in a maze, a matrix of walls (1s) and free spaces (0s), and a start and end location.  The solver then uses a greedy algorithm minimizing manhatten distance to the end location to compute a path through the maze if one exists and draws the path on the display.
 
 Example maze representation:
 ```
@@ -32,5 +32,5 @@ make
 java MazeViewer ./mazes/MAZE_FILE_TO_RUN
 ```
 
-#### TODO
-Implemennt A* search to find optimal path through maze.
+### TODO
+Implement A* search to find optimal path through maze.
