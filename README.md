@@ -20,7 +20,7 @@ Example maze representation:
 8 9              # end location
 ```
 
-Demo:
+Demo:<br/>
 ![Demo](https://github.com/russomp/maze-solver/blob/master/maze_solver_demo.gif)
 
 ### Getting started
